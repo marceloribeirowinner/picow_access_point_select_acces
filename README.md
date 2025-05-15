@@ -11,7 +11,6 @@ Projeto para transformar o Raspberry Pi Pico W em um ponto de acesso Wi-Fi com s
 - Disponibilizar uma página HTML para:
   - Listar redes Wi-Fi próximas.
   - Permitir conexão a uma rede Wi-Fi selecionada.
-  - Controlar o estado de um LED onboard.
 
 ---
 
@@ -21,7 +20,6 @@ Projeto para transformar o Raspberry Pi Pico W em um ponto de acesso Wi-Fi com s
 - **Servidor DHCP**: Atribui IP automaticamente aos dispositivos conectados.
 - **Servidor HTTP embarcado**: Disponibiliza páginas de controle acessíveis via navegador.
 - **Página de seleção de redes**: Lista redes Wi-Fi próximas e permite conexão.
-- **Controle de LED**: Página para ligar/desligar o LED onboard.
 
 ---
 
@@ -39,9 +37,6 @@ Projeto para transformar o Raspberry Pi Pico W em um ponto de acesso Wi-Fi com s
    - A página `/scan` exibe as redes Wi-Fi próximas.
    - Escolha uma rede, insira a senha e clique em "Conectar".
    - O dispositivo tentará conectar à rede escolhida e informará o status.
-
-4. **Controle de LED**
-   - Acesse `/ledtest` para visualizar e alterar o estado do LED onboard.
 
 ---
 
@@ -67,7 +62,6 @@ Projeto para transformar o Raspberry Pi Pico W em um ponto de acesso Wi-Fi com s
 
 3. **Selecionar uma rede Wi-Fi local e conectar.**
 
-4. **(Opcional) Acessar `/ledtest` para controlar o LED.**
 
 ---
 
